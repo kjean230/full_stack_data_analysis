@@ -71,3 +71,5 @@ htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+# Backend env (dev-only)
+backend/.env
