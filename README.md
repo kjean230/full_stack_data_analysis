@@ -20,7 +20,7 @@ Download NYC Street Tree Census data for years 1995, 2005, and 2015:
 - Expected filename: `2015_street_tree_census.csv`
 
 **Forestry Tree Points**
-- Source: [NYC Open Data - Forestry Tree Points]([https://data.cityofnewyork.us/Environment/Forestry-Tree-Points/pjvh-nc2h](https://data.cityofnewyork.us/Environment/Forestry-Tree-Points/hn5i-inap/about_data))
+- Source: [NYC Open Data - Forestry Tree Points](https://data.cityofnewyork.us/Environment/Forestry-Tree-Points/hn5i-inap/about_data)
 - Format: CSV
 - Place in: `trees/forestry/`
 - Expected filename: `forestry_tree_points.csv`
