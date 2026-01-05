@@ -4,7 +4,7 @@ from datetime import datetime
 from sqlalchemy import DateTime, String, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from app.db.base_class import Base
+from app.db.base import Base
 
 # creating a user class that will represent the user table in the database
 # database name: urban_ecology_db
