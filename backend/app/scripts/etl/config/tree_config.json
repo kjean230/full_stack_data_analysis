@@ -1,5 +1,41 @@
 {
-    "1995": {
-        "file_path": 
-    }
+  "1995": {
+    "file_path": "/app/app/data/trees/1995/1995_Street_Tree_Census.csv",
+    "columns": {
+      "census_tree_id": "RecordId",
+      "borough": "Borough",
+      "species": "Spc_Common",
+      "health": "Condition",
+      "dbh": "Diameter",
+      "latitude": "Latitude",
+      "longitude": "Longitude"
+    },
+    "batch_size": 5000
+  },
+  "2005": {
+    "file_path": "/app/app/data/trees/2005/2005_Street_Tree_Census.csv",
+    "columns": {
+      "census_tree_id": "OBJECTID",
+      "borough": "boroname",
+      "species": "spc_common",
+      "health": "status",
+      "dbh": "tree_dbh",
+      "latitude": "latitude",
+      "longitude": "longitude"
+    },
+    "batch_size": 5000
+  },
+  "2015": {
+    "file_path": "/app/app/data/trees/2015/2015_Street_Tree_Census.csv",
+    "columns": {
+      "census_tree_id": "tree_id",
+      "borough": "borough",
+      "species": "spc_common",
+      "health": "health",
+      "dbh": "tree_dbh",
+      "latitude": "latitude",
+      "longitude": "longitude"
+    },
+    "batch_size": 5000
+  }
 }
