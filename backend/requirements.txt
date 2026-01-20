@@ -10,3 +10,4 @@ python-jose[cryptography]
 geoalchemy2
 python-multipart
 email-validator
+pandas
