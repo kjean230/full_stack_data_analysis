@@ -19,7 +19,7 @@ class DatasetColumn(Base):
 
     name: Mapped[str] = mapped_column(String(255), nullable=False) 
     inferred_type: Mapped[str] = mapped_column(String(50), nullable=False) # data types such as integer, string, date, etc.
-    is_nullable: Mapped[bool] = mapped_column(Boolean, nullable=False, default=True)
+    nullable: Mapped[bool] = mapped_column(Boolean, nullable=False, default=True)
     sample_values: Mapped[dict | None] = mapped_column(JSON, nullable=True) # store first 5-10 sample values as JSON
 
     __table_args__ = (

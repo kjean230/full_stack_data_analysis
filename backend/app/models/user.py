@@ -24,3 +24,5 @@ class User(Base):
     )
 
     presets = relationship("Preset", back_populates="user", cascade="all, delete-orphan")
+    datasets = relationship("Dataset", back_populates="user", cascade="all, delete-orphan")
+    charts = relationship("Chart", back_populates="user", cascade="all, delete-orphan")
