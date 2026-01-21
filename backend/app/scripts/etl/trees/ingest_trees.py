@@ -20,3 +20,20 @@ from sqlalchemy.dialects.mysql import insert
 
 from app.db.session import SessionLocal
 from app.models.tree import Tree
+
+# configeration logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# load config file path
+CONFIG_PATH = Path(__file__).resolve().parent / "config" / "trees_config.json"
+
+with open(CONFIG_PATH, "r") as f:
+    CONFIG = json.load(f)
+
+# function to normalize the values in the health columns within the dataframes
+def normalize_health(value: Any) -> str | None:
+    ...
